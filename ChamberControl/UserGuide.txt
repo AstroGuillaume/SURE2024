@@ -1,1 +1,19 @@
 This chamber controls the temperature and humidity for our droplet analysis
+
+In order to use the chamber, first make sure to plug in the following items:
+  1) Power Supply, turn it ON, and set it to 11.95V
+  2) Plug for the fans
+  3) Power supply for the coolant fan
+
+The arduino code should already be uploaded on the temperature & humidity controlled chamber, but if there is any problem, the code can be found in the ChamberControl folder.
+
+When opening the chamber for operation, connect the USB cable to your computer and run the python file included in this folder. The following should be done in order:
+  1) The program will ask you whether you would like the temperature to be turned ON or OFF. Enter either ON or OFF using your keyboard. If OFF is           chosen, the temperature will be disregarded. If not, it will prompt you to enter the temperature using the keyboard. Press the return key when you      are done.
+  2) The program will then ask you whether you would like the humidity to be turned ON or OFF. Enter either ON or OFF using your keyboard. If OFF is         chosen, the humidity will be disregarded. If not, it will prompt you to enter the humidity using the keyboard. Press the return key when you are        done.
+  3) Then, the available serial ports will be listed, and the one with the arduino connected to it will be indicated. Enter the number of the port you       would like to use with the keyboard and press the return key.
+  4) The initial configurations of the box will be done (it should take about 30 seconds to execute, be patient). Once this is done, the command line        will indicate "next...". At this stage, you will have the option to enter multiple commands, chose the one that you would like to execute and           press the return key on the keyboard:
+
+      1. "T" : Returns the current temperature in the chamber
+      2. "H" : Returns the current humidity in the chamber
+      3. "C" : Collects the temperature and/or humidity for the desired amount of seconds. Once you press this command, you will be prompted to enter                  the collection time (in seconds), press the return key once you are done.
+      4. 
