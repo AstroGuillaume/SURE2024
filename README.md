@@ -1,5 +1,6 @@
 # SURE2024
 Research on airborne viruses
+![Chamber_picture1](https://github.com/user-attachments/assets/ce65262c-8383-4f49-92de-6ef3cce8cb1e)
 
 #1. Setting the controlled temperature & humidity chamber:
 
