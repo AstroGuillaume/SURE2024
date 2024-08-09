@@ -29,7 +29,7 @@ Turn on the computer and enter into the PFV4 software. When the camera is proper
 
 #3. Ejecting the droplet with the compressed air system:
 
-The 5/16" clear tube should be plugged into the laboratory hose. Adjust the pressure regulator for the air ejection and the pressure regulator for the pipette pushing piston. You can adjust the desired pressure using a screwdriver.
+The 5/16" clear tube should be plugged into the laboratory hose with a worm drive clamp. This clamp is very important in the setup as it avoids the ejection of the tubing from the laboratory hose. Adjust the pressure regulator for the air ejection and the pressure regulator for the pipette pushing piston. You can adjust the desired pressure using a screwdriver.
 
 Turn on the ON/OFF switch on top of the small circuit enclosure box. Then press on the toggle switch. This will open the two solenoid valves and allow a constant flow rate to be acheived at the air ejection needle.
 
