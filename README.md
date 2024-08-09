@@ -12,7 +12,7 @@ The first step when using the controlled chamber is to plug the following elemen
 
 The usb cable must then be plugged onto your computer. The Arduino script should have already been uploaded to the device, but in case anything happens, a copy can be found in the ChamberControl folder. 
 
-Open the chamber_operation_arduino python script and ensure all dependencies are met (the script installs some of them, but some might have been missed)
+Open the chamber_operation_arduino python script and ensure all dependencies are met (the script installs some of them, but some might have been missed). Then make sure you specify where you want the temperature and humidity data to be stored on your computer by modifying the folder variable.
 
 Launch the program. The program will ask wheter the temperature should be turned on or off. If the temperature is turned on, it will ask for the desired value to be set. The same process will be done for the humidity. The program will then list all the utilized serial ports and ask for which one you would like to use. Usually, only one arduino device is plugged to the computer, so just enter the only serial port listed. The chamber will run the initial configurations and will then start to control the temperature and humidity.
 
