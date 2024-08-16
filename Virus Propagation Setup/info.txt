@@ -1,2 +1,0 @@
-The CAD files for the Virus Propagation Setup including the droplet injector, the air ejection system, the controlled chamber, and the high speed camera
-Can be found in this folder
