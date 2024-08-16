@@ -1,1 +1,0 @@
-This arduino file controls the stepper motor used for the Falcon Tube rotator in the lab. This rotator lets the mixtures rotate for long period to avoid sedimentation. In the lab, this will be used to make the PEO solutions that will be used when imaging the sprays in the chamber.
