@@ -41,3 +41,14 @@ Pipette your solution using either the 10uL or 100uL dedicated pipette and place
 When ready to proceed to the droplet ejection, click on the recording button on the computer and quickly press on the toggle switch. The droplet will be ejected as soon as the toggle switch is pressed, and 10ms later, the compressed air system will be turned ON, fragmenting the droplet into multiple smaller droplets.
 
 You can select the relevant frames within the whole recording by adjusting the start and end cursors on PFV4.
+
+
+**Tube Rotator**
+This Falcon tube rotator was made to mix polymer solutions for long durations while ensuring that sedimentation does not happen. It must be plugged to a 120V AC outlet and just needs to be turned to ON. The speed can be controlled by adjusting it to a desired value using the arduino script under TubeRotator -> tube_rotator.ino
+
+https://github.com/user-attachments/assets/549b61cc-e7b3-4ce6-a9e2-92ba2238ea65
+
+![8d2e3f3b-d74f-4acc-a942-e9fa067e933f](https://github.com/user-attachments/assets/460a19ba-cfa0-4b6d-93e1-4eaf823a2721)
+
+
+![6c8852f8-8e95-4737-a1b6-ba9b650f0fd5](https://github.com/user-attachments/assets/36552de2-1775-4620-96f1-ec595d040fdc)
