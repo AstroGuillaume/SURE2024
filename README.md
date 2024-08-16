@@ -53,3 +53,12 @@ https://github.com/user-attachments/assets/549b61cc-e7b3-4ce6-a9e2-92ba2238ea65
 
 
 ![6c8852f8-8e95-4737-a1b6-ba9b650f0fd5](https://github.com/user-attachments/assets/36552de2-1775-4620-96f1-ec595d040fdc)
+
+
+**Safety**
+
+when using the spray setup, it is mandatory to wear PPE equipment. The goggles should be worn as there are compressed air hazards. If using nanoparticles within the controlled chamber, everything must be done under the fume hood. The spray setup was designed to fit exactly there. Before each experiment, the water for the humidifier must be changed and put in the bin below:
+
+![ca5ba0b2-c194-481d-a081-c201a6464cab](https://github.com/user-attachments/assets/090c7b6d-8bfe-4415-a3c9-2a9cff071bcb)
+
+The cardboard containers for the silica beads should be changed when cleaning the chamber. The silica beads are normally blue, but change color once they absorb humidity (red). If the beads have become red, they must be placed in the oven to remove the humidity. chamber must be considered as contaminated from the moment that nanoparticles have been sprayed in it.
