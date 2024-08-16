@@ -44,6 +44,7 @@ You can select the relevant frames within the whole recording by adjusting the s
 
 
 **Tube Rotator**
+
 This Falcon tube rotator was made to mix polymer solutions for long durations while ensuring that sedimentation does not happen. It must be plugged to a 120V AC outlet and just needs to be turned to ON. The speed can be controlled by adjusting it to a desired value using the arduino script under TubeRotator -> tube_rotator.ino
 
 https://github.com/user-attachments/assets/549b61cc-e7b3-4ce6-a9e2-92ba2238ea65
