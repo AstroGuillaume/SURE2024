@@ -22,6 +22,6 @@ When utilizing the chamber, connect the USB cable to your computer and run the p
       2. "H" : Returns the current humidity in the chamber
       3. "C" : Collects the temperature and/or humidity for the desired amount of seconds. Once you press this command, you                 will be prompted to enter the collection time (in seconds), press the return key once you are done.
 
-The program will save the curves of the temperature and/or humidity on your computer at the folder destination that you entered in step 1. The curves are taken from the moment you set the temperature and humidity variables to 10 seconds after the desired humidity and/or temperature have been reached. The curves will be saved along with a text file containing the exact values used in the graph. These informations will be saved in a sub-folder with the current date and time.
+The program will save the curves of the temperature and/or humidity on your computer at the folder destination that you entered in step 1. The curves are taken from the moment you set the temperature and humidity variables to 20 seconds after the desired humidity and/or temperature have been reached. The curves will be saved along with a text file containing the exact values used in the graph. These information will be saved in a sub-folder with the current date and time.
 
-A control loop ensures that when the temperature or humidity values have been reached, the chamber keeps those temperature constant.
+A control loop ensures that when the temperature or humidity values are reached, the chamber keeps those values constant.
