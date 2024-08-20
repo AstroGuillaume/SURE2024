@@ -11,14 +11,14 @@ The first step when using the controlled chamber is to plug the following elemen
   - 10,000 Lux lamp
   - power supply for the ultrasound particl atomizer
 
-The usb cable must then be plugged onto your computer. The Arduino script should have already been uploaded to the device, but in case anything happens, a copy can be found in the ChamberControl folder. 
+The usb cable must then be plugged into your computer. The Arduino script should have already been uploaded to the device, but in case anything happens, a copy can be found in the ChamberControl folder. 
 
-Open the chamber_operation_arduino python script and ensure all dependencies are met (the script installs some of them, but some might have been missed). Then make sure you specify where you want the temperature and humidity data to be stored on your computer by modifying the folder variable.
+Open the chamber_operation_arduino python script and ensure all dependencies are met (the script itself installs some of them, but some might have been missed). Then make sure you specify where you want the temperature and humidity data to be stored on your computer by modifying the curr_dir variable.
 
-Launch the program. The program will ask wheter the temperature should be turned on or off. If the temperature is turned on, it will ask for the desired value to be set. The same process will be done for the humidity. The program will then list all the utilized serial ports and ask for which one you would like to use. Usually, only one arduino device is plugged to the computer, so just enter the only serial port listed. The chamber will run the initial configurations and will then start to control the temperature and humidity.
+Launch the program. The program will ask wheter the temperature should be turned on or off. If the temperature is turned on, it will ask for the desired value to be set. The same process will be done for the humidity. The program will then list all the utilized serial ports and ask which one you would like to use. Usually, only one arduino device is plugged to the computer, so just enter the only serial port listed. The chamber will run the initial configurations and will then start to control the temperature and humidity.
 
 You will then be able to specify three commands:
-1) "C": This collect data. If you choose this command, the temperature and humidity data, along with a graph, will be stored in the specified folder variable.
+1) "C": This collect data. If you choose this command, the temperature and humidity data, along with a graph, will be stored in the specified folder variable. It includes the data from the moment the command was entered to 20 seconds after both variables have been set.
 2) "T": This outputs the current temperature in the chamber. It is the average value given by the four different sensors.
 3) "H"" This outputs the humidity in the chamber. It is the average value given by the four different sensors.
 
@@ -30,22 +30,20 @@ Turn on the computer and enter into the PFV4 software. When the camera is proper
 
 #3. Ejecting the droplet with the compressed air system:
 
-The 5/16" clear tube should be plugged into the laboratory hose with a worm drive clamp. This clamp is very important in the setup as it avoids the ejection of the tubing from the laboratory hose. Adjust the pressure regulator for the air ejection and the pressure regulator for the pipette pushing piston. You can adjust the desired pressure using a screwdriver.
+The 5/16" clear tube should be plugged into the laboratory hose with a worm drive clamp. This clamp is very important in the setup as it avoids the ejection of the tubing from the laboratory hose. Adjust the pressure regulator for the air ejection system, and adjust the pressure regulator for the pipette pushing piston. You can adjust the desired pressure using a screwdriver.
 
-Turn on the ON/OFF switch on top of the small circuit enclosure box. Then press on the toggle switch. This will open the two solenoid valves and allow a constant flow rate to be acheived at the air ejection needle.
-
-Open the laboratory air supply. You will be able to adjust the air to the desired flow rate by looking at the value indicated by the rotameter. You can also change the value of the pressure in the chamber once again using a screwdriver. Turn the ON/OFF metal switch to "OFF" and then turn it "ON", this closes the valves and repowers ON the arduino inside the box. This will allow a sufficient pressure to be built in the compressed air line, allowing the piston to be ready for activation.
+Turn on the ON/OFF toggle switch on top of the small circuit enclosure box. Then press on the push button switch. This will open the two solenoid valves and allow a constant flow rate to be acheived at the air ejection needle. Open the laboratory air supply. You will be able to adjust the air flow to the desired flow rate by looking at the value indicated by the rotameter. Ensure to not go above the maximum flow rate indicated on the rotameter, this could damage the instrument. Turn the ON/OFF metal toggle switch to "OFF" and then turn it "ON" again, this closes the valves and repowers ON the arduino inside the box. This will allow a sufficient pressure to be built in the compressed air line, allowing the piston and air ejection system to be ready for activation.
 
 Pipette your solution using either the 10uL or 100uL dedicated pipette and place it in the pipette support. Lower the pipette down using the hex key, to a level where it is close to the air ejection needle. You can also adjust the height of the piston by using the hex key. The piston should directly touch the top of the pipette.
 
-When ready to proceed to the droplet ejection, click on the recording button on the computer and quickly press on the toggle switch. The droplet will be ejected as soon as the toggle switch is pressed, and 10ms later, the compressed air system will be turned ON, fragmenting the droplet into multiple smaller droplets.
+When ready to proceed to the droplet ejection, click on the recording button on the computer and quickly press on the push button switch. The droplet will be ejected as soon as the push button switch is pressed, and 10ms later, the compressed air system will be turned ON, fragmenting the droplet into multiple other smaller droplets.
 
 You can select the relevant frames within the whole recording by adjusting the start and end cursors on PFV4.
 
 
 **Tube Rotator**
 
-This Falcon tube rotator was made to mix polymer solutions for long durations while ensuring that sedimentation does not happen. It must be plugged to a 120V AC outlet and just needs to be turned to ON. The speed can be controlled by adjusting it to a desired value using the arduino script under TubeRotator -> tube_rotator.ino
+This Falcon tube rotator was made to mix polymer solutions for long durations while ensuring that sedimentation does not happen. It must be plugged to a 120V AC outlet and just needs to be turned to ON. The speed can be controlled by opening the box, plugging the arduino board to the computer, adjusting the speed variable in the arduino script under TubeRotator -> tube_rotator.ino to the desired value. Since the board is not a true arduino board, the CH340 driver should be installed on your computer to be able to see the board in the arduino app. The driver can be downloaded from: https://www.elegoo.com/blogs/arduino-projects/elegoo-arduino-nano-board-ch340-usb-driver?srsltid=AfmBOooNBPDVZOu_l9fAv63BIZNMFUos_b01z_TnlKjmj5HMD87adBCv
 
 https://github.com/user-attachments/assets/549b61cc-e7b3-4ce6-a9e2-92ba2238ea65
 
